@@ -16,6 +16,7 @@
 		0C1E11BB28727B700060C312 /* RRuleDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11BA28727B700060C312 /* RRuleDemoAppTests.swift */; };
 		0C1E11C528727B710060C312 /* RRuleDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11C428727B710060C312 /* RRuleDemoAppUITests.swift */; };
 		0C1E11C728727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11C628727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift */; };
+		0C1E11D528727C420060C312 /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11D428727C420060C312 /* RRule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0C1E11C028727B710060C312 /* RRuleDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRuleDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1E11C428727B710060C312 /* RRuleDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRuleDemoAppUITests.swift; sourceTree = "<group>"; };
 		0C1E11C628727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRuleDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C1E11D428727C420060C312 /* RRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		0C1E11A328727B6C0060C312 /* RRuleDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C1E11D328727C240060C312 /* RRuleAPI */,
 				0C1E11A428727B6C0060C312 /* RRuleDemoApp.swift */,
 				0C1E11A628727B6C0060C312 /* ContentView.swift */,
 				0C1E11A828727B700060C312 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				0C1E11C628727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift */,
 			);
 			path = RRuleDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		0C1E11D328727C240060C312 /* RRuleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0C1E11D428727C420060C312 /* RRule.swift */,
+			);
+			path = RRuleAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1E11AE28727B700060C312 /* Persistence.swift in Sources */,
+				0C1E11D528727C420060C312 /* RRule.swift in Sources */,
 				0C1E11B128727B700060C312 /* RRuleDemoApp.xcdatamodeld in Sources */,
 				0C1E11A728727B6C0060C312 /* ContentView.swift in Sources */,
 				0C1E11A528727B6C0060C312 /* RRuleDemoApp.swift in Sources */,
