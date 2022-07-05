@@ -17,6 +17,8 @@
 		0C1E11C528727B710060C312 /* RRuleDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11C428727B710060C312 /* RRuleDemoAppUITests.swift */; };
 		0C1E11C728727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11C628727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift */; };
 		0C1E11D528727C420060C312 /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11D428727C420060C312 /* RRule.swift */; };
+		0C1E11DA28727E6D0060C312 /* RRuleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11D928727E6D0060C312 /* RRuleFormView.swift */; };
+		0C1E11DD28728DD00060C312 /* RRule+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E11DC28728DD00060C312 /* RRule+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		0C1E11C428727B710060C312 /* RRuleDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRuleDemoAppUITests.swift; sourceTree = "<group>"; };
 		0C1E11C628727B710060C312 /* RRuleDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRuleDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0C1E11D428727C420060C312 /* RRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
+		0C1E11D928727E6D0060C312 /* RRuleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRuleFormView.swift; sourceTree = "<group>"; };
+		0C1E11DC28728DD00060C312 /* RRule+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RRule+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 		0C1E11A328727B6C0060C312 /* RRuleDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C1E11DB28728DBF0060C312 /* Extensions */,
+				0C1E11D628727DB30060C312 /* Views */,
 				0C1E11D328727C240060C312 /* RRuleAPI */,
 				0C1E11A428727B6C0060C312 /* RRuleDemoApp.swift */,
 				0C1E11A628727B6C0060C312 /* ContentView.swift */,
@@ -142,6 +148,22 @@
 				0C1E11D428727C420060C312 /* RRule.swift */,
 			);
 			path = RRuleAPI;
+			sourceTree = "<group>";
+		};
+		0C1E11D628727DB30060C312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C1E11D928727E6D0060C312 /* RRuleFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C1E11DB28728DBF0060C312 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C1E11DC28728DD00060C312 /* RRule+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1E11AE28727B700060C312 /* Persistence.swift in Sources */,
+				0C1E11DD28728DD00060C312 /* RRule+Extensions.swift in Sources */,
+				0C1E11DA28727E6D0060C312 /* RRuleFormView.swift in Sources */,
 				0C1E11D528727C420060C312 /* RRule.swift in Sources */,
 				0C1E11B128727B700060C312 /* RRuleDemoApp.xcdatamodeld in Sources */,
 				0C1E11A728727B6C0060C312 /* ContentView.swift in Sources */,
